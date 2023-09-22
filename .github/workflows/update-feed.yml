@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download ArxivFeed
-        env:
+        with:
           GITHUB_PAT: ${{ github.token }}
           REPO: "NotCraft/ArxivFeed"
           VERSION: "latest"
