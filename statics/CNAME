@@ -1,0 +1,3 @@
+cd ./statics
+touch CNAME
+echo "www.boyuanintju.xyz" > CNAME
