@@ -44,6 +44,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{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}}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./target
           force_orphan: true
