@@ -1,5 +1,5 @@
 site_title = "MyArxiv"
-limit_days = 15
+limit_days = 7
 cache_url = "https://stevenzhang9577.github.io/ArxivDaily/cache.json"
 
 [[sources]]
@@ -26,6 +26,17 @@ title = "Machine Learning"
 limit = 150
 category = "cs.MM"
 title = "Multimedia"
+
+
+[[sources]]
+limit = 150
+category = "cs.CR"
+title = "Cryptography and Security"
+
+[[sources]]
+limit = 150
+category = "eess.IV"
+title = "Image and Video Processing"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
